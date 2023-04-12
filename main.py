@@ -75,12 +75,12 @@ class MainLoop():
 \033[31m██║╚████║██╔══╝░░░██╔██╗░██║░░░██║░╚═══██╗\033[31m
 \033[31m██║░╚███║███████╗██╔╝╚██╗╚██████╔╝██████╔╝\033[31m
 \033[31m╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝░╚═════╝░╚═════╝░↻↻\033[31m
-\033[34m--------------------------- DDoS Tool Layer7       (Versoin 1.0) BETA!\033[34m
- -----------------------------  The Tools Maked By Us Nexus Team
-\033[32m-------------------------------  Telegram Link   https://t.me/usnexushacker \033[32m
-\033[32m-------------------------------  Dont Use GOV Site Is Just Education Purpose,⚠️\033[32m
-\033[32m___________________ These tools are not complete Is Beta Version\033[32m
-\033[32m___________________ The Tools Is Very Power Full Tools ☠️☠️\033[32m     
+\033[34m---------- DDoS Tool Layer7       (Versoin 1.0) BETA!\033[34m
+ -------------  The Tools Maked By Us Nexus Team
+\033[0;34m-----------Telegram Link   https://t.me/usnexushacker\033[0;34m
+\033[0;31m------------Dont Use GOV Site Is Just Education Purpose,⚠️\033[0;31m
+\033[0;31m_______These tools are not complete Is Beta Version\033[0;31m
+\033[0;31m______The Tools Is Very Power Full Tools ☠️☠️\033[0;31m     
 """)
         try:
             url = sys.argv[1]
