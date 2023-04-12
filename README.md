@@ -47,7 +47,7 @@ git clone https://github.com/TamimFuckersHacks/US-NEXUS-DDOS-
 cd US-NEXUS-DDOS-
 ```
 ```sh
-python3 main.py
+python3 usnexus.py
 ```
 -------------------------------------------------------------
 ```sh
