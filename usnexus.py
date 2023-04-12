@@ -105,7 +105,7 @@ class MainLoop():
                 fucker(url, i + 1, in_line).start()
                 in_line = in_line[:-1]
         except:
-            print("Usage: python3 main.py https://example.com")
+            print("Usage: python3 usnexus.py https://example.com")
         
 if __name__ == '__main__':
     if sys.platform.startswith("linux"):
